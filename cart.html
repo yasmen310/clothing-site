@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart</title>
+    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body  style="background-color:  #ee82ee;">
+ 
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-white" style="border: 1px solid white">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <img src="../images/Asset 2.png" width="50">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto fs-5">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="newabout/About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="pages/service.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="blog/blog.html">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="product.html">Shop</a></li>
+              <li><a class="dropdown-item" href="Fproduct/feature_product.html">Feature product</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="Narrival/newArrival.html">New Arrival</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="pages/form.html " title="Create Account"><i
+                class="fa-solid fa-user"></i></a>
+          </li>
+        </ul>
+
+       <div class="icons ps-3 pe-3 cart">
+            <a
+              href="product.html"
+              style="text-decoration: none; color: rgb(187, 1, 109)"
+              ><i class="fa-sharp fa-solid fa-bag-shopping p-lg-3 fs-3"></i
+              ><span style="color: black;">0</span></a
+            >
+          </div>
+      </div>
+    </div>
+  </nav>
+
+
+    <div class="container my-5">
+      <div class="products-container">
+        <div class="product-header">
+          <h5 class = "product-title">Product</h5>
+          <h5 class = "price">Price</h5>
+          <h5 class = "quantity">Quantity</h5>
+          <h5 class = "total">Total</h5>
+        </div>
+        <div class="product"></div>
+      </div>
+      <div class="text-center my-5">
+        <a href="product.html" class="btn" style="background-color: deeppink; color: bisque;"
+          >Continue Shopping</a
+        >
+        <a href="checkout.html" class="btn" style="background-color: deeppink; color: bisque;">CheckOut</a>
+      </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
