@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <link rel="stylesheet" href="/icomoon/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/product.css" />
+
+    <title>NewProduct</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.1/examples/album/"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color: #ee82ee">
+    <nav
+      class="navbar navbar-expand-lg fixed-top bg-white"
+      style="border: 1px solid white"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <img src="../images/Asset 2.png" width="50" />
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto fs-5">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../newabout/About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../pages/service.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../blog/blog.html">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../product.html">Shop</a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../Fproduct/feature_product.html"
+                    >Feature product</a
+                  >
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="newArrival.html"
+                    >New Arrival</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="../pages/form.html"
+                title="Create Account"
+                ><i class="fa-solid fa-user"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="py-3 text-center container">
+        <div class="row">
+          <div class="col-lg-6 col-md-8 mx-auto" style="margin-top: 100px">
+            <h1 class="fw-light title">New Arrival</h1>
+          </div>
+        </div>
+      </section>
+      <div class="container mt-3">
+        <!--ممكن ادي margin in class row-->
+        <div class="row mt-5">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/42016512590271-1.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$198</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$208</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $10</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/51IXpyP1CzL._SL500_._AC_SL500_.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$100</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$108</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $8</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/5565-4.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$103</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$108</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $5</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/فساتين-محجبات-خروج-تفصيل-2022-بالصور-3.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$90</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$97</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $7</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/فساتين-خطوبة-طويلة-للمحجبات-2023-2.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$95</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$104</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $9</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/6942166-251823469.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$95</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$100</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $5</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/فساتين-سهرة-فخمة5.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$80</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$85</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $5</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/f708ae13a192687a56e053522f709605.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$85</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$89</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $4</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/982bbd6af10a647d24f77f6ebbfc2698.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$65</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$75</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $10</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/2896206-2044592481.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$85</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$92</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $7</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/1668.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$80</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$88</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $8</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/فساتين-سهرة-محجبات-1.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$70</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$85</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $15</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/6132341-1895258668.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$75</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$85</del
+                  >
+                </div>
+
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $10</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/صور-فساتين-محجبات-12.jpg"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$85</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$90</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $5</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="width: auto">
+              <img
+                src="IMG3/n-incili-saten-abiye-mavi-19121-8732792-11.webp"
+                class="card-img-top"
+                alt="..."
+                style="cursor: pointer; height: 530px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clothes for veiled women</h5>
+                <div>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-solid fa-star" style="color: yellow"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div style="display: flex">
+                  <p style="color: green; font-weight: bolder">$89</p>
+                  <del
+                    style="color: green; font-weight: bolder; margin-left: 40px"
+                    >$99</del
+                  >
+                </div>
+                <div style="display: flex">
+                  <button class="btn btn-outline-danger">SAVE $10</button>
+                  <a href=""
+                    ><i
+                      class="fa-solid fa-cart-shopping"
+                      style="margin-left: 150px; font-size: 30px; color: green"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-muted py-5 mt-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">
+          Product details &copy; Date First Available,ASIN,Manufacturer,Item
+          model number,Department,Best Sellers Rank: #39,000 in Fashion (See Top
+          100 in Fashion) #657 in Women's Dresses Customer reviews: 3.0 3.0 out
+          of 5 stars 3 ratings
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_jquery_3.7.0_jquery.min.js"></script>
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_popper.js_2.11.8_umd_popper.min.js"></script>
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_bootstrap_5.3.0_js_bootstrap.min.js"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
